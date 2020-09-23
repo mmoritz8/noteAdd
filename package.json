@@ -1,0 +1,27 @@
+{
+  "name": "noteapp",
+  "version": "1.0.0",
+  "description": "application using Node, Express, ES6, CRUD operations, and RESTAPI's",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scripts": {    "dev": "nodemon server.js"  },
+
+  },
+  "keywords": [
+    "crud",
+    "node",
+    "express",
+    "note"
+  ],
+  "author": "Madeline",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
